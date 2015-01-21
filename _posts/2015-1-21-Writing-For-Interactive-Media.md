@@ -10,7 +10,7 @@ Topics for today's class:
 * Markdown Recap
 * Github Pages Recap
 
-In today's Writing for Interactive Media class, we're recapping static site generators (such as Jekyll, which we're using for our class projects) and Markdown. Markdown makes it easy to quickly generate sites with HTML. The Markdown documentation is here and a good cheat sheet is here.
+In today's Writing for Interactive Media class, we're recapping static site generators (such as Jekyll, which we're using for our class projects) and Markdown. Markdown makes it easy to quickly generate sites with HTML. The Markdown documentation is [here](http://daringfireball.net/projects/markdown/syntax) and a Markdown good cheat sheet is [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). 
 
 Here's what Tom Preston-Werner, the creator of Jekyll, has to say about it: 
 > The distance from my brain to my blog has shrunk, and, in the end, I think that will make me a better author.
