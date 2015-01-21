@@ -8,6 +8,8 @@ Some updates for today on this site.
 
 I'm including comments using [Disqus](http://www.disqus.com).
 
+> Jedem Anfang wohnt ein Zauber inne.
+
 LAB: 
 1. Sign up for Flickr
 2. Upload an artwork/logo/photo
