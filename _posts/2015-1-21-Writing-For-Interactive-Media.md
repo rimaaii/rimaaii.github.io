@@ -10,5 +10,6 @@ In today's Writing for Interactive Media class, we're recapping static site gene
 We're also going over [front matter in Jekyll](http://jekyllrb.com/docs/frontmatter/) is and what to include. 
 
 ![Github](http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/GitHub.svg/320px-GitHub.svg.png)
+
 Our work is hosted on Github Pages, for free. Thanks, Github :)
 
