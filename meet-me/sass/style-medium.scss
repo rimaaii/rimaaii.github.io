@@ -1,0 +1,65 @@
+@import 'vars';
+@import 'mixins';
+
+/*
+	Highlights by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+$size-padding-tb: 3em;
+$size-padding-lr: 3em;
+
+/* Main BG */
+
+	.main-bg {
+		display: none;
+	}
+
+/* Main */
+
+	.main {
+		.image.primary {
+			display: block;
+			margin: 0 0 ($size-element-margin * 2) 0;
+		}
+
+		.container {
+			@include padding($size-padding-tb, $size-padding-lr, (0, 0, 7em, 0));
+
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+/* Header */
+
+	#header {
+		header {
+			padding-bottom: ($size-element-height + ($size-padding-lr * 2));
+			width: 80%;
+		}
+
+		.container {
+			margin-left: -40%;
+			padding: $size-padding-lr;
+		}
+	}
+
+/* Footer */
+
+	#footer {
+		min-height: 0;
+		padding: 0;
+
+		.container {
+			@include padding($size-padding-tb, $size-padding-lr);
+		}
+
+		footer {
+			@include padding($size-padding-tb, $size-padding-lr);
+			bottom: auto;
+			position: relative;
+		}
+	}

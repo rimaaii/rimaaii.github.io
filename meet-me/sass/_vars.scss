@@ -1,0 +1,67 @@
+// Mixins.
+	@mixin padding($tb, $lr, $pad: (0,0,0,0)) {
+		padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max(0.1em, $tb - $size-element-margin + nth($pad,3)) ($lr + nth($pad,4));
+	}
+
+	@mixin minHeight($tb, $pad) {
+		min-height: calc( 100vh - #{ $tb + (($tb - $size-element-margin) + $pad) } );
+	}
+
+// Misc.
+	$zindex-loader-overlay: 10000;
+
+// Duration.
+	$duration-transition:		0.2s;
+	$duration-loader-fadein:	1s;
+	$duration-bg-fadein:		0.5s;
+
+// Size.
+	$size-element-height:		3em;
+	$size-element-margin:		2em;
+
+// Font.
+	$font-family:				'Raleway', 'Helvetica', sans-serif;
+	$font-family-fixed:			'Courier New', monospace;
+	$font-weight:				400;
+	$font-weight-bold:			700;
+	$font-weight-heavy:			800;
+
+// Color.
+	$color-bg:					#fff;
+	$color-fg:					#6f7577;
+	$color-fg-bold:				#61686b;
+	$color-fg-light:			#a8b0b3;
+	$color-fg-lighter:			#e8f0f3;
+	$color-border:				#dddddd;
+	$color-border-bg:			rgba(144,144,144,0.075);
+	$color-border2:				#d3d3d3;
+	$color-border2-bg:			rgba(144,144,144,0.15);
+
+	$color-alt-fg-bold:			#ffffff;
+	$color-alt-fg:				rgba(255,255,255,0.5);
+	$color-alt-fg-light:		rgba(255,255,255,0.35);
+	$color-alt-fg-lighter:		rgba(255,255,255,0.2);
+	$color-alt-border:			#ffffff;
+	$color-alt-border-bg:		rgba(255,255,255,0.075);
+	$color-alt-border2:			#ffffff;
+	$color-alt-border2-bg:		rgba(255,255,255,0.15);
+
+	$color-accent-bg:			#8cd1a8;
+	$color-accent-fg-bold:		#ffffff;
+	$color-accent-fg:			mix($color-accent-bg, $color-accent-fg-bold, 25%);
+	$color-accent-fg-light:		mix($color-accent-bg, $color-accent-fg-bold, 40%);
+	$color-accent-fg-lighter:	mix($color-accent-bg, $color-accent-fg-bold, 90%);
+	$color-accent-border:		rgba(255,255,255,0.25);
+	$color-accent-border-bg:	rgba(255,255,255,0.075);
+	$color-accent-border2:		rgba(255,255,255,0.5);
+	$color-accent-border2-bg:	rgba(255,255,255,0.2);
+
+	$color-accent2-bg:			#313a3d;
+	$color-accent2-fg-bold:		#ffffff;
+	$color-accent2-fg:			mix($color-accent2-bg, $color-accent2-fg-bold, 25%);
+	$color-accent2-fg-light:	mix($color-accent2-bg, $color-accent2-fg-bold, 40%);
+	$color-accent2-fg-lighter:	mix($color-accent2-bg, $color-accent2-fg-bold, 90%);
+	$color-accent2-border:		rgba(255,255,255,0.25);
+	$color-accent2-border-bg:	rgba(255,255,255,0.075);
+	$color-accent2-border2:		rgba(255,255,255,0.5);
+	$color-accent2-border2-bg:	rgba(255,255,255,0.2);
