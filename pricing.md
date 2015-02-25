@@ -4,8 +4,20 @@ title: Pricing
 permalink: /pricing/
 ---
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+<table width="200" border="1">
+  <tbody>
+    <tr>
+      <td>Premium</td>
+      <td>Deluxe</td>
+    </tr>
+    <tr>
+      <td>werwer</td>
+      <td>werw</td>
+    </tr>
+    <tr>
+      <td>werwer</td>
+      <td>wer</td>
+    </tr>
+  </tbody>
+</table>
 
